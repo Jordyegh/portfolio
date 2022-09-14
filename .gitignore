@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# IDE
+.idea
+
 # production
 /build
 
@@ -25,3 +28,4 @@ yarn-error.log*
 /src/firebase-config.ts
 /.firebaserc
 /firebase.json
+/.firebase/hosting.YnVpbGQ.cache
