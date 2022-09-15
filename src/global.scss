@@ -1,0 +1,15 @@
+/*$body-bg: $black;
+$body-color: #111;*/
+
+@import "~bootswatch/dist/vapor/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/vapor/bootswatch";
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-repeat: no-repeat;
+}
