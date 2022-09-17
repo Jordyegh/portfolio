@@ -1,15 +1,28 @@
 import './Home.scss';
+import { Link } from 'react-router-dom';
+import portrait from '../../assets/images/portfolio_portrait.jpg';
 
 function Home(): JSX.Element {
   return (
-    <>
-      <h2>Example body text</h2>
-      <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-      <p><small>This line of text is meant to be treated as fine print.</small></p>
-      <p>The following is <strong>rendered as bold text</strong>.</p>
-      <p>The following is <em>rendered as italicized text</em>.</p>
-      <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
-    </>);
+    <div className='page-content container-sm d-lg-flex'>
+      <div className='container'>
+        <h1>Welcome! <small className="text-muted">&#128172;</small></h1>
+        <p>My name is Jordy Hertogs, I'm a software developer with a Mediatech degree.
+          Currently I'm following the <em>Software Engineering</em> course in Rotterdam University of Applied Sciences.</p>
+        <p className='text-secondary'>I'm glad you ended up on my portfolio, for whatever reason you may have; I hope you find what you're
+          looking for on here! If not, do no hesitate to send me a message through
+          the <Link className='text-secondary' to="/contact">contact</Link> form. You will have my response as soon as possible.</p>
+        <p>My name is Jordy Hertogs, I'm a software developer with a Mediatech degree.
+          Currently I'm following the <em>Software Engineering</em> course in Rotterdam University of Applied Sciences.</p>
+        <p className='text-secondary'>I'm glad you ended up on my portfolio, for whatever reason you may have; I hope you find what you're
+          looking for on here!</p>
+      </div>
+
+      <div className='text-center m-auto'>
+        <img className='portrait img-thumbnail float-right' src={portrait} alt="Portrait" />
+      </div>
+    </div>
+  );
 }
 
 export default Home;

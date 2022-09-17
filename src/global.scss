@@ -1,9 +1,20 @@
 /*$body-bg: $black;
 $body-color: #111;*/
 
+$font-size-base: 1.1rem;
+
 @import "~bootswatch/dist/vapor/variables";
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/vapor/bootswatch";
+
+@font-face {
+  font-family: Imported;
+  src: url(/assets/fonts/AsherPunkDemoVersion-ALZJ2.ttf);
+}
+
+* {
+  font-family: Imported;
+}
 
 html {
   height: 100%;
@@ -12,4 +23,8 @@ html {
 body {
   min-height: 100%;
   background-repeat: no-repeat;
+}
+
+.page-content {
+  width: 75%;
 }

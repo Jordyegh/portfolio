@@ -1,5 +1,9 @@
+import './About.scss';
+
 function About(): JSX.Element {
-  return <h2>About me</h2>;
+  return <div className='page-content'>
+    About me
+  </div>;
 }
 
 export default About;

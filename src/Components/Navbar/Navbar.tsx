@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-//import './Navbar.scss';
+import './Navbar.scss';
 
 function Navbar(): JSX.Element {
   return (
@@ -27,9 +27,9 @@ function Navbar(): JSX.Element {
               <Link className="nav-link dropdown-toggle" data-bs-toggle="dropdown" to="/" role="button" aria-haspopup="true"
                  aria-expanded="false">Contact</Link>
               <div className="dropdown-menu">
-                <Link className="dropdown-item" to="/">Contact information</Link>
+                <Link className="dropdown-item" to="/contact">Contact information</Link>
                 <div className="dropdown-divider"></div>
-                <Link className="dropdown-item" to="/">Send me a message</Link>
+                <Link className="dropdown-item" to="/message">Send me a message</Link>
               </div>
             </li>
           </ul>

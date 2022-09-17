@@ -1,38 +1,7 @@
 nav {
+  margin-bottom: 50px;
+
   .nav-item {
     padding: 0 5px;
-  }
-
-  .dropdown-menu {
-    &[data-bs-popper] {
-      left: 1px;
-    }
-
-    &.dropdown-or {
-      padding: 0;
-
-      .dropdown-item {
-        padding: 10px;
-        text-align: center;
-      }
-
-      li:first-child .dropdown-item {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-      }
-      li:last-child .dropdown-item {
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
-    }
-
-    .dropdown-or-break {
-      text-align: center;
-      background-color: #F6F6F6;
-      -webkit-user-select: none; /* Safari */
-      -moz-user-select: none; /* Firefox */
-      -ms-user-select: none; /* IE10+/Edge */
-      user-select: none; /* Standard */
-    }
   }
 }
