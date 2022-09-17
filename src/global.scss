@@ -12,10 +12,6 @@ $font-size-base: 1.1rem;
   src: url(/assets/fonts/AsherPunkDemoVersion-ALZJ2.ttf);
 }
 
-* {
-  font-family: Imported;
-}
-
 html {
   height: 100%;
 }
@@ -27,4 +23,8 @@ body {
 
 .page-content {
   width: 75%;
+}
+
+.header-font {
+  font-family: Imported;
 }

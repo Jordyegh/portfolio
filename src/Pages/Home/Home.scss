@@ -1,3 +1,30 @@
+@keyframes moving-header {
+  from {
+    translate: 0 -10%;
+    opacity: 0.5;
+  }
+  to {
+    translate: 0 10%;
+    opacity: 1;
+  }
+}
+
+.header-font {
+  span {
+    display: inline-block;
+    animation-name: moving-header;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @for $i from 1 through 8 {
+    span:nth-child(8n + #{$i}) {
+      animation-delay: #{$i / 10}s;
+    }
+  }
+}
+
 img.portrait {
   width: 75%;
   margin-top: 25px;

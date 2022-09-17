@@ -6,7 +6,9 @@ function Home(): JSX.Element {
   return (
     <div className='page-content container-sm d-lg-flex'>
       <div className='container'>
-        <h1>Welcome! <small className="text-muted">&#128172;</small></h1>
+        <h1 className='header-font'>
+          <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span><span>!</span>
+        </h1>
         <p>My name is Jordy Hertogs, I'm a software developer with a Mediatech degree.
           Currently I'm following the <em>Software Engineering</em> course in Rotterdam University of Applied Sciences.</p>
         <p className='text-secondary'>I'm glad you ended up on my portfolio, for whatever reason you may have; I hope you find what you're
