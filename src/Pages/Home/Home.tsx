@@ -6,7 +6,7 @@ function Home(): JSX.Element {
   return (
     <div className='page-content container-sm d-lg-flex'>
       <div className='container'>
-        <h1 className='header-font'>
+        <h1 className='header header-font'>
           <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span><span>!</span>
         </h1>
         <p>My name is Jordy Hertogs, I'm a software developer with a Mediatech degree.

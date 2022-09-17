@@ -25,6 +25,16 @@ body {
   width: 75%;
 }
 
-.header-font {
-  font-family: Imported;
+.header {
+  font-size: 5vw;
+
+  &-font {
+    font-family: Imported;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 15vw;
+  }
 }
